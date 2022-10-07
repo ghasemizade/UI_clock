@@ -125,10 +125,31 @@
     width: 8px;
     height: 79px;
     border-radius: 4px 4px 2px 2px;
-    background-color: #d62828;
+    background-color: goldenrod;
     position: absolute;
     left: calc(50% - .8%);
     top: 35%;
     /* transform: rotate(-120deg); */
     box-shadow: -1px 0 5px #00000026;
+}
+#hour{
+    height: 100%;
+    width: 100%;
+    /* transform: rotate(120deg); */
+}
+#hour::after{
+    content: '';
+    width: 10px;
+    height: 65px;
+    border-radius: 6px 6px 3px 3px;    
+    background-color: aquamarine;
+    position: absolute;
+    left: calc(50% - 1%);
+    top: 35%;
+    box-shadow: 1px 0 4px #00000026;
+}
+@keyframes sec{
+    to{
+        transform: rotate(360deg);
+    }
 }
