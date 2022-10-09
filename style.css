@@ -60,7 +60,8 @@
 .numbers span{
     display: block;
     color: #003049;
-    font-size: 38px;
+    font-size: 48px;
+    font-weight: 800;
     text-shadow: 0 5px 18px #00000026, 0 2px 3px #00000026;
 }
 .numbers:nth-child(1){
@@ -132,10 +133,11 @@
     /* transform: rotate(-120deg); */
     box-shadow: -1px 0 5px #00000026;
 }
-#hour{
+/* #hour{
     height: 100%;
     width: 100%;
-    /* transform: rotate(120deg); */
+
+    transform: rotate(120deg);
 }
 #hour::after{
     content: '';
@@ -147,7 +149,7 @@
     left: calc(50% - 1%);
     top: 35%;
     box-shadow: 1px 0 4px #00000026;
-}
+} */
 @keyframes sec{
     to{
         transform: rotate(360deg);
